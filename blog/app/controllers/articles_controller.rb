@@ -23,17 +23,19 @@ class ArticlesController < ApplicationController
     def update
         @article = Article.find(params[:id])
         if @article.update(article_params)
-            redirect_tp @article
+            redirect_to @article
         else
             render 'edit'
         end
     end
-    def destory
+    ## don't write 'destrpy' to 'destory', this is a stupid mistakes
+    def destroy
         @article = Article.find(params[:id])
         @article.destroy
 
         redirect_to articles_path
     end
+    ## 定义的参数
     private
         def article_params
            params.require(:article).permit(:title, :text)
