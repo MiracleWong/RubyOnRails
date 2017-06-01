@@ -1,18 +1,26 @@
-<h1>Listing articles</h1>
-<%= link_to 'New article', new_article_path %>
-<table>
-    <tr>
-        <th>Title</th>
-        <th>Text</th>
-    </tr>
+<div class="clearfix">
+    <div class="container">
+        <h1>展示所有文章</h1>
+        <table class="table table-striped">
+            <tr>
+                <th>标题</th>
+                <th>内容</th>
+                <th>展示</th>
+                <th>编辑</th>
+                <th>删除</th>
+            </tr>
 
-    <% @articles.each do |article| %>
-        <tr>
-            <td><%= article.title %></td>
-            <td><%= article.text %></td>
-            <td><%= link_to 'Show', article_path(article) %></td>
-            <td><%= link_to 'Edit', edit_article_path(article) %></td>
-            <td><%= link_to 'Destroy', article_path(article), method: :delete, data: { confirm: 'Are you sure?' } %></td>
-        </tr>
-    <% end %>
-</table>
+            <% @articles.each do |article| %>
+                <tr>
+                    <td><%= article.title %></td>
+                    <td><%= article.text %></td>
+                    <td><%= link_to 'Show', article_path(article) %></td>
+                    <td><%= link_to 'Edit', edit_article_path(article) %></td>
+                    <td><%= link_to 'Destroy', article_path(article), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+                </tr>
+            <% end %>
+        </table>
+
+        <%= link_to '新建一篇文章', new_article_path %>
+    </div>
+</div>

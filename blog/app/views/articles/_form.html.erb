@@ -1,4 +1,4 @@
-# 注意：要在控制器中创建@article 变量
+<div class="clearfix">
 <%= form_for @article do |f| %>
     <% if @article.errors.any? %>
         <div id="error_explanation">
@@ -24,3 +24,4 @@
         <%= f.submit %>
     </p>
 <% end %>
+</div>

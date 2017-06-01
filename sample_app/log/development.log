@@ -230,3 +230,227 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 345ms (Views: 196.0ms)
 
 
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:11:45 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 345ms (Views: 198.6ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:12:02 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.5ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:16:55 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 18.2ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:24:41 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 423ms (Views: 246.3ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:24:44 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 13.9ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:24:46 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.4ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:24:48 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.6ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:24:51 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.5ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:24:55 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.6ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:25:46 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.3ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:25:48 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 20.2ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:25:50 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 19.0ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:28:29 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3506ms (Views: 3504.0ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:28:38 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 23.7ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:28:39 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 31ms (Views: 28.9ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:28:39 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 40.7ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:28:40 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 29.7ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:28:41 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 43.8ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:32:11 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 33.2ms)
+
+
+Started GET "/static_pages/about" for 192.168.24.27 at 2017-06-01 10:40:08 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 123ms (Views: 121.2ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:40:21 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 32.9ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:45:08 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 474ms (Views: 323.9ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:46:17 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 26.4ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:46:19 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 25.2ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:46:20 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 37.6ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:46:21 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 29.6ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:46:22 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 52.5ms)
+
+
+Started GET "/" for 192.168.24.27 at 2017-06-01 10:54:32 +0800
+Cannot render console from 192.168.24.27! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 360ms (Views: 220.3ms)
+
+
