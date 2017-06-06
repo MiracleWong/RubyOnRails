@@ -3,6 +3,12 @@
 
 /* mixins, variables, etc. */
 $light-gray: #777;
+$light-medium-gray: #eaeaea;
+
+@mixin box-sizing {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 /* unviersal */
 
