@@ -5,7 +5,8 @@ class SessionsController < ApplicationController
     user = User.find_by(email: params[:session][:email].downcase)
     if user && user.authenticate(params[:session][:password])
       # 登入用户，然后重定向到用户的资料页面
-      redirect_to @user
+      log_in user
+      redirect_to user
     else
       # 创建一个错误消息
       flash.now[:danger] = "邮箱或者密码错误"
@@ -13,6 +14,7 @@ class SessionsController < ApplicationController
     end
   end
   def destroy
-    
+    log_out
+    redirect_to root_url
   end
 end

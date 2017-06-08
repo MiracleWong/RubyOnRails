@@ -7,4 +7,9 @@ class ActiveSupport::TestCase
   include ApplicationHelper
 
   # Add more helper methods to be used by all tests here...
+  
+  # 如果用户已经登录，返回true，否则返回false
+  def is_logged_in?
+    !session[:user_id].nil?
+  end
 end

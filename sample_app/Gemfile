@@ -10,6 +10,10 @@ end
 gem 'rails', '~> 5.1.1'
 # use bcrypt to count the hash data of password`
 gem 'bcrypt','3.1.11'
+# use jquery framework: https://github.com/rails/jquery-rails
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+# use jquery framework: https://github.com/rails/jquery-rail
+gem 'jquery-ui-rails'
 # The HTML/CSS/JS framework: Bootstrap: http://www.bootcss.com/
 gem 'bootstrap-sass','3.3.7'
 # Use sqlite3 as the database for Active Record
