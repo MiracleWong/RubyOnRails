@@ -51,4 +51,14 @@ module SessionsHelper
     @current_user = nil
   end
 
+  # 重定向到存储的地址或者默认地址
+  def redirect_back_for(default)
+    redirect_to(session[:forwarding_url] || default)
+    session.delete(:forwarding_url)
+  end
+
+  # 存储后面需要使用的地址
+  def store_location
+    session[:forwarding_url] = request.original_url if request.get?
+  end
 end
