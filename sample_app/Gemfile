@@ -10,6 +10,13 @@ end
 gem 'rails', '~> 5.1.1'
 # use bcrypt to count the hash data of password`
 gem 'bcrypt','3.1.11'
+# use faker to produce lots of faker users
+gem 'faker','1.7.3'
+# use the will_paginate and bootstrap-will_paginate for performing paginated queries
+gem 'will_paginate','~> 3.1.0'
+gem 'bootstrap-will_paginate'
+
+
 # use jquery framework: https://github.com/rails/jquery-rails
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 # use jquery framework: https://github.com/rails/jquery-rail

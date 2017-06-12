@@ -12,6 +12,6 @@ jinzhenli:
   email: jinzhenli@126.com
   password_digest: <%= User.digest('password') %>
 wangxiaoping:
-  name: jinzhenli
-  email: jinzhenli@126.com
+  name: wangxiaoping
+  email: wangxiaoping@126.com
   password_digest: <%= User.digest('password') %>
