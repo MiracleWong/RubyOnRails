@@ -16,9 +16,11 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      log_in @user
-      flash[:success] = "欢迎来到自动化运维平台"
-      redirect_to @user
+      # log_in @user
+      UserMailer.account_activation(@user).deliver_now
+      flash[:success] = "Please check your email to activate your accout"
+      # redirect_to @user
+      redirect_to root_url
     else
       render 'new'  
     end
