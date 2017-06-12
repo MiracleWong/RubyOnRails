@@ -7,7 +7,11 @@
 # two:
 #   name: MyString
 #   email: MyString
-michael:
+jinzhenli:
+  name: jinzhenli
+  email: jinzhenli@126.com
+  password_digest: <%= User.digest('password') %>
+wangxiaoping:
   name: jinzhenli
   email: jinzhenli@126.com
   password_digest: <%= User.digest('password') %>

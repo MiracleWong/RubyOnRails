@@ -38,6 +38,11 @@ module SessionsHelper
     cookies.delete(:user_id)
     cookies.delete(:remember_token)
   end
+
+  # 如果指定的用户是当前用户，返回true
+  def current_user?(user)
+    user == current_user
+  end
   
   # 退出当前用户
   def log_out
