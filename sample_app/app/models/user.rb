@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  # dependent 的作用是在用户被删除的时候，把这个用户发布的微博也删除
+  has_many :microposts, dependent: :destroy
   attr_accessor :activation_token
   before_save :downcase_email
   before_create :create_activation_digest
