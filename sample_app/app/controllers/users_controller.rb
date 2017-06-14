@@ -55,16 +55,6 @@ class UsersController < ApplicationController
     end
 
     # 前置过滤器
-    
-    # 确保用户已经登录
-    def logged_in_user
-      unless logged_in?
-        store_location
-        flash[:danger] = "Please log in"
-        redirect_to login_url
-      end
-    end
-
     # 确保是正确的用户
     def correct_user
       @user = User.find(params[:id])

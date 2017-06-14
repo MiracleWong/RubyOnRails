@@ -38,6 +38,11 @@ class User < ApplicationRecord
     update_attribute(:remember_digest, nil)
   end
 
+  # 实现动态流原型
+  def feed
+    Micropost.where("user_id = ?", id)
+  end
+
   private
     # 将电子邮件地址转换成小写
     def downcase_email
