@@ -2,9 +2,9 @@ class User < ApplicationRecord
   # dependent 的作用是在用户被删除的时候，把这个用户发布的微博也删除
   has_many :microposts, dependent: :destroy
   has_many :active_relationships, class_name: "Relationship", foreign_key: "follower_id", dependent: :destroy
-  has_many :following, through: 19, source: :followed
-  has_many :passive_relationships, class_name: "Relationship", foreign_key: "followed_id", dependent: :destroy
-  has_many :followers, through: passive_relationships, source: :follower
+  has_many :following, through: :active_relationships, source: :followed
+  # has_many :passive_relationships, class_name: "Relationship", foreign_key: "followed_id", dependent: :destroy
+  # has_many :followers, through: passive_relationships, source: :follower
 
   attr_accessor :activation_token
   before_save :downcase_email
